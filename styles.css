@@ -1,0 +1,286 @@
+/* CSS Reset */
+/* ... */
+
+/* General Styling */
+
+ 
+body ,html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+    
+    padding: 0;
+  }
+
+  
+    
+   
+
+  
+
+  header {
+    
+    color: #fff;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .logo h1 {
+    font-size: 24px;
+  }
+  .logo h4 {
+    padding: 20px 20px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .logo .btn{
+    padding: 20px 20px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cta .btn {
+    padding: 20px 20px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    
+  }
+
+  .hero h2 {
+    
+    margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+    
+    letter-spacing: 0.4em;
+    line-height: 1.5
+}
+
+  
+  .hero h3{
+
+    margin-bottom: 0.8rem;
+   font-size: 4.0rem;
+   
+   letter-spacing: 0.3em;
+   line-height: 1.71;
+    
+
+  }
+
+  .hero form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .hero button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .featured-cars {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .featured-cars h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .car-listing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .car {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .car img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .car h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .car p {
+    margin-top: 5px;
+    color: #777;
+  }
+
+  .about {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .services {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .services ul {
+    list-style: none;
+  }
+
+  .services li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .blog {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .blog h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .blog-post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blog-post h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .blog-post p {
+    margin-top: 5px;
+    color: #777;
+  }
+
+  .blog-post a {
+    color: #ff4500;
+    text-decoration: none;
+  }
+
+  .blog-post a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer p {
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .social-media {
+    font-size: 24px;
+  }
+
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  
+
+  .bg-image {
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Images used */
+  .img1 { background-image: url("image.jpg"); }
+  .img2 { background-image: url("bg.jpg"); }
