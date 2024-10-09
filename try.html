@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Price Estimator</title>
+	<link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+	<h1>Car Price Estimator</h1>
+	<form id="car-form">
+		<label for="car-name">Name of the Car:</label>
+		<input type="text" id="car-name" name="car-name" required><br><br>
+		<label for="engine-cc">Engine Size (cc):</label>
+		<input type="number" id="engine-cc" name="engine-cc" required><br><br>
+		<label for="transmission">Transmission:</label>
+		<select id="transmission" name="transmission" required>
+			<option value="manual">Manual</option>
+			<option value="automatic">Automatic</option>
+		</select><br><br>
+		<label for="fuel-type">Fuel Type:</label>
+		<select id="fuel-type" name="fuel-type" required>
+			<option value="petrol">Petrol</option>
+			<option value="diesel">Diesel</option>
+			<option value="electric">Electric</option>
+		</select><br><br>
+		<label for="buying-price">Buying Price:</label>
+		<input type="number" id="buying-price" name="buying-price" required><br><br>
+		<label for="age">Age of the Car (years):</label>
+		<input type="number" id="age" name="age" required><br><br>
+		<input type="submit" value="Estimate Selling Price">
+	</form>
+	<div id="output"></div>
+	<script src="script.js"></script>
+</body>
+</html>
