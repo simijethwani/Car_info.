@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en-GB">
 <head>
   <meta charset="UTF-8">
@@ -6,11 +6,11 @@
   <link rel="stylesheet" href="ok.css">
 </head>
 <body background="trial.gif" >
-  
+
 
         <header>
             <div class="logo">
-              
+
                 <div class="card">
             <img src="rrlogo.png" alt="Trulli" height= 137px  >
             <div class="wrapper">
@@ -18,12 +18,12 @@
                    <div class="title login">
                       Login Form
                    </div>
-          
+
                    <div class="title signup">
                       Signup Form
                    </div>
                 </div>
-          
+
                 <div class="form-container">
                    <div class="slide-controls">
                       <input type="radio" name="slide" id="login" checked>
@@ -32,44 +32,44 @@
                       <label for="signup" class="slide signup">Signup</label>
                       <div class="slider-tab"></div>
                    </div>
-          
+
                    <div class="form-inner">
-                      <form action="index.html" class="login">
+                      <form action="login.php"method="post" class="login">
                          <div class="field">
-                            <input type="text" placeholder="Email Address" required>
+                            <input type="text" placeholder="Email Address" name = "email_add"required>
                          </div>
                          <div class="field">
-                            <input type="password" placeholder="Password" required>
+                            <input type="password" placeholder="Password" name= "password" required>
                          </div>
                          <div class="pass-link">
                             <a href="#">Forgot password?</a>
                          </div>
                          <div class="field btn">
                             <div class="btn-layer"></div>
-                            <input type="submit" value="Login">
+                            <input type="submit" name="submit" value="Login">
                          </div>
-                         
+
                       </form>
-          
-                      <form action="index.html" class="signup">
+
+                      <form action="signup.php" class="signup">
                          <div class="field">
-                            <input type="text" placeholder="Email Address" required>
+                            <input type="text" placeholder="Email Address" name = "email_add" required>
                          </div>
                          <div class="field">
-                            <input type="password" placeholder="Password" required>
+                            <input type="password" placeholder="Password" name= "password" required>
                          </div>
                          <div class="field">
                             <input type="password" placeholder="Confirm password" required>
                          </div>
                          <div class="field btn">
                             <div class="btn-layer"></div>
-                            <input type="submit" value="Signup">
+                            <input type="submit" name="submit" value="Signup">
                          </div>
                       </form>
                    </div>
                 </div>
              </div>
-          
+
              <script>
                 const loginText = document.querySelector(".title-text .login");
                 const loginForm = document.querySelector("form.login");
@@ -89,13 +89,9 @@
                    return false;
                 });
              </script>
+
                 <p class="card-footer"></p>
               </div>
         </div>
-       
-        </header>
-       
-           
 
-    
-</body>
+        </header>
